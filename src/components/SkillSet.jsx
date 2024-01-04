@@ -4,10 +4,14 @@ const SkillSet = () => {
       <div className="grid gap-6 lg:block">
         <p className="font-bold lg:mb-10 text-3xl 3xl:text-5xl">Habilidades</p>
         <p className="text-base 3xl:text-xl font-normal text-[#8491A0] lg:w-[300px] 3xl:w-[580px]">
-          Como desarrollador web con dominio en diversas áreas (front-end,
-          back-end, ux, ui), soy la opción ideal a contratar cuando se trata de
-          un proyecto completo. Sin importar la complejidad de tus necesidades,
-          acepto los desafíos.
+          Como desarrollador web con dominio en diversas áreas{" "}
+          <span className="text-white">(</span>front-end
+          <span className="text-white">,</span> back-end
+          <span className="text-white">,</span> ux
+          <span className="text-white">,</span> ui
+          <span className="text-white">)</span>, soy la opción ideal a contratar
+          cuando se trata de un proyecto completo. Sin importar la complejidad
+          de tus necesidades, acepto los desafíos.
         </p>
       </div>
       <div className="grid gap-6 text-[#5221E6] xxsm:mx-auto xxsm:text-center xsm:flex xsm:mx-auto xsm:gap-20 md:gap-36 lg:flex lg:gap-48">
