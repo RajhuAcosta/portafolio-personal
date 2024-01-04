@@ -28,34 +28,40 @@ const Footer = ({ windowWidth }) => {
       </div>
       <div className="text-white 3xl:text-lg flex text-sm 3xl:mr-24">
         <ul className="w-36 xsm:w-52 xsmd:w-64 smd:w-44 3xl:w-72 leading-10">
-          <li className="hover:underline hover:text-[#5221E6] transition-all">
+          <li>
             <Link
               to="home"
               smooth={true}
               duration={300}
               style={{ cursor: "pointer" }}
             >
-              Inicio
+              <span className="hover:underline hover:text-[#5221E6] transition-all">
+                Inicio
+              </span>
             </Link>
           </li>
-          <li className="hover:underline hover:text-[#5221E6] transition-all">
+          <li>
             <Link
               to="aboutMe"
               smooth={true}
               duration={300}
               style={{ cursor: "pointer" }}
             >
-              Sobre mí
+              <span className="hover:underline hover:text-[#5221E6] transition-all">
+                Sobre mí
+              </span>
             </Link>
           </li>
-          <li className="hover:underline hover:text-[#5221E6] transition-all">
+          <li>
             <Link
               to="myProjects"
               smooth={true}
               duration={400}
               style={{ cursor: "pointer" }}
             >
-              Proyectos
+              <span className="hover:underline hover:text-[#5221E6] transition-all">
+                Proyectos
+              </span>
             </Link>
           </li>
         </ul>

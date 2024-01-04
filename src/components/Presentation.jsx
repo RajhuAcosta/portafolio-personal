@@ -15,7 +15,9 @@ const Presentation = () => {
             Soy Rajhu Acosta.
             <br />
             Un desarrollador web
-            <p className="text-[#FFFFFF80]">Full-Stack.</p>
+            <p className="text-[#FFFFFF80] inline pl-2.5 xxsm:pl-0 xxsm:block">
+              Full-Stack.
+            </p>
           </h1>
         </div>
         <p className="text-base 3xl:text-2xl font-normal text-white/90 lg:z-30">

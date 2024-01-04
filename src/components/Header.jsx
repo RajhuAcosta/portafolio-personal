@@ -6,7 +6,7 @@ const Header = ({ windowWidth }) => {
       {windowWidth >= 1024 ? (
         <header className="flex items-center">
           <div className="bg-black w-[30%] text-white font-[Oswald] font-bold text-3xl py-[1.25rem] px-7 xl:px-12 2xl:px-20">
-            <span className="cursor-none">Rajhu A.</span>
+            <span className="">Rajhu A.</span>
           </div>
           <div className="bg-[#181823] w-[70%] text-white/70 text-lg flex justify-end px-7 xl:px-12 2xl:px-20">
             <button className="px-5 outline-none cursor-default">
@@ -16,7 +16,9 @@ const Header = ({ windowWidth }) => {
                 duration={300}
                 style={{ cursor: "pointer" }}
               >
-                Inicio
+                <span className=" hover:text-white hover:border-b-2 hover:border-[#5221E6]">
+                  Inicio
+                </span>
               </Link>
             </button>
             <button className="px-5 outline-none cursor-default">
@@ -26,7 +28,9 @@ const Header = ({ windowWidth }) => {
                 duration={400}
                 style={{ cursor: "pointer" }}
               >
-                Proyectos
+                <span className=" hover:text-white hover:border-b-2 hover:border-[#5221E6]">
+                  Proyectos
+                </span>
               </Link>
             </button>
             <button className="px-5 outline-none cursor-default">
@@ -36,10 +40,12 @@ const Header = ({ windowWidth }) => {
                 duration={300}
                 style={{ cursor: "pointer" }}
               >
-                Sobre mí
+                <span className=" hover:text-white hover:border-b-2 hover:border-[#5221E6]">
+                  Sobre mí
+                </span>
               </Link>
             </button>
-            <button className="text-white bg-[#5221E6] outline-none px-5 py-6">
+            <button className="text-white bg-[#5221E6] hover:text-[#5221E6] hover:bg-white hover:font-medium outline-none px-5 py-6">
               <Link to="contactMe" smooth={true} duration={600}>
                 Contáctame
               </Link>
