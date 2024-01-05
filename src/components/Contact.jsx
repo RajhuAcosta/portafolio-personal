@@ -1,5 +1,5 @@
 const Contact = ({ useForm, ValidationError }) => {
-  const [state, handleSubmit] = useForm("xayryawb");
+  const [state, handleSubmit] = useForm("meqyqvjn");
   if (state.succeeded) {
     // alert("Mensaje enviado correctamente");
     return (
