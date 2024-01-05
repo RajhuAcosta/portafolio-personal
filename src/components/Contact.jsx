@@ -73,7 +73,7 @@ const Contact = ({ useForm, ValidationError }) => {
             </button>
           </form>
         </div>
-        <div className="top-0 bottom-0 left-0 right-0 3xl:-translate-x-40 3xl:max-w-[300px] flex justify-center items-center">
+        <div className="top-0 bottom-0 left-0 right-0 3xl:-translate-x-40 3xl:translate-y-10 3xl:max-w-[300px] flex justify-center items-center">
           <p className="text-white absolute bg-green-500 px-7 py-5 font-medium rounded-md">
             Correo enviado correctamente
           </p>
