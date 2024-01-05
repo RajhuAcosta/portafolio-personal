@@ -35,11 +35,6 @@ const SkillSet = () => {
           </div>
           <div className="grid gap-3 xsm:gap-5">
             <picture className="xxsm:flex xxsm:justify-center">
-              {/* <img
-                className="w-12"
-                src="/puzzle.png"
-                alt="pieza de rompecabezas"
-              /> */}
               <i class="bx bx-cog bx-lg" style={{ color: "#5221E6" }}></i>
             </picture>
             <p className="text-2xl 3xl:text-3xl text-white ">Tecnologías</p>
@@ -59,11 +54,6 @@ const SkillSet = () => {
         <div className="grid gap-6">
           <div className="grid gap-3 xsm:gap-5">
             <picture className="xxsm:flex xxsm:justify-center">
-              {/* <img
-                className="w-12"
-                src="/puzzle.png"
-                alt="pieza de rompecabezas"
-              /> */}
               <i
                 class="bx bx-code-block bx-lg"
                 style={{ color: "#5221E6" }}
