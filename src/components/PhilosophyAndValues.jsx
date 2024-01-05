@@ -11,10 +11,13 @@ const PhilosophyAndValues = () => {
           auténtica del universo. Estos anhelos los busco y vivo a través de mis
           valores: la autenticidad, la creatividad y la hospitalidad.
         </p>
-        <a className="block mt-8 lg:mt-16 3xl:" href="https://www.linkedin.com/in/rajhu-acosta-developerweb-full-stack">
+        <a
+          className="block mt-8 lg:mt-16 3xl:"
+          href="https://www.linkedin.com/in/rajhu-acosta-developerweb-full-stack"
+        >
           <span className="pb-1 border-b-2 border-[#89949f] hover:border-0 hover:text-[#89949f] font-medium 3xl:text-2xl">
             <a
-              href="https://www.linkedin.com/in/rajhu-acosta--066976253"
+              href="https://www.linkedin.com/in/rajhu-acosta-developerweb-full-stack"
               target="_blank"
             >
               Revisa mi Linkedin
