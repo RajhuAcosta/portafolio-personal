@@ -8,7 +8,7 @@ const Footer = ({ windowWidth }) => {
         </div>
         <div className="flex gap-3 text-white mb-9">
           <a
-            href="https://www.linkedin.com/in/rajhu-acosta--066976253"
+            href="https://www.linkedin.com/in/rajhu-acosta-developerweb-full-stack"
             target="_blank"
           >
             <i
@@ -65,11 +65,6 @@ const Footer = ({ windowWidth }) => {
             </Link>
           </li>
         </ul>
-        {/* <ul className="leading-10 smd:mr-10 md:mr-16">
-          <li>Store</li>
-          <li>Blog</li>
-          <li>Reading list</li>
-        </ul> */}
       </div>
     </footer>
   );
