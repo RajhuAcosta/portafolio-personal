@@ -13,7 +13,7 @@ const PhilosophyAndValues = () => {
         </p>
         <a
           className="block mt-8 lg:mt-16 3xl:"
-          href="https://www.linkedin.com/in/rajhu-acosta-developerweb-full-stack"
+          href="https://www.linkedin.com/in/rajhu-acosta-29814629a"
         >
           <span className="pb-1 border-b-2 border-[#89949f] hover:border-0 hover:text-[#89949f] font-medium 3xl:text-2xl">
             <a
