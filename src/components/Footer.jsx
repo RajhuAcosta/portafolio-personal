@@ -8,7 +8,7 @@ const Footer = ({ windowWidth }) => {
         </div>
         <div className="flex gap-3 text-white mb-9">
           <a
-            href="https://www.linkedin.com/in/rajhu-acosta-developerweb-full-stack"
+            href="https://www.linkedin.com/in/rajhu-acosta-29814629a"
             target="_blank"
           >
             <i
